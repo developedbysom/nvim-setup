@@ -96,7 +96,7 @@ nnoremap <silent> <c-k> <cmd>lua vim.lsp.buf.signature_help()<CR>
 nnoremap <silent> gr    <cmd>lua vim.lsp.buf.references()<CR>
 nnoremap <silent> gR    <cmd>lua vim.lsp.buf.rename()<CR> 
 
---let g:completion_enable_snippet = 'vim-vsnip'
+# let g:completion_enable_snippet = 'vim-vsnip'
 
 lua << EOF
 local nvim_lsp = require('lspconfig')
